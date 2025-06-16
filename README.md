@@ -4,13 +4,13 @@ This repository contains **two complementary financial analytics tools**, built 
 
 ---
 
-## 🔹 1. `portfolio-analysis-tableau`  
+## 1. `portfolio-analysis-tableau`  
 **Command-line app for historical analysis**
 
-### 📌 Description  
+### Description  
 A lightweight script that pulls **daily historical prices** from the [Twelve Data API](https://twelvedata.com/), computes portfolio metrics from a defined starting point, and exports the results as **Tableau-ready CSV files**.
 
-### ✅ Features
+### Features
 - Assets: `BTC/EUR`, `USD/EUR`, `MCD/EUR`
 - Assumes **€10,000 investment per asset** starting **01.01.2023**
 - Computes:
@@ -23,7 +23,7 @@ A lightweight script that pulls **daily historical prices** from the [Twelve Dat
   - `historical_prices.csv` (raw prices)
   - `portfolio_analysis.csv` (metrics + portfolio values)
 
-### 📁 Folder: `historical_analysis_csv/`  
+### Folder: `historical_analysis_csv/`  
 This folder contains:
 - `main.py` — entry point  
 - `/app/` — modular code in MVC-like style  
@@ -31,13 +31,13 @@ This folder contains:
 
 ---
 
-## 🔹 2. `portfolio-dashboard-flask`  
+## 2. `portfolio-dashboard-flask`  
 **Flask-based API for live portfolio stats**
 
-### 📌 Description  
+### Description  
 A modular **Flask web application** using MVC architecture to fetch **live financial data** and serve portfolio insights via JSON or downloadable CSV.
 
-### ✅ Features
+### Features
 - Pulls live daily prices from Twelve Data API
 - Computes and returns:
   - Asset return
@@ -50,18 +50,18 @@ A modular **Flask web application** using MVC architecture to fetch **live finan
   - `/api/export` – Downloads raw data as CSV
 - Easily extendable for dashboard frameworks or frontend use
 
-### 🧱 Tech
+### Tech
 - Flask
 - pandas
 - requests
 
-### 📁 Folder: `live_dashboard_mvc/`
+### Folder: `live_dashboard_mvc/`
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 🔧 Requirements
+### Requirements
 Create and activate a virtual environment, then:
 
 ```bash
