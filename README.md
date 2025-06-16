@@ -12,7 +12,7 @@ A lightweight script that pulls **daily historical prices** from the [Twelve Dat
 
 ### Features
 - Assets: `BTC/EUR`, `USD/EUR`, `MCD/EUR`
-- Assumes **€10,000 investment per asset** starting **01.01.2023**
+- Assumes **€10,000 investment per asset** starting **03.01.2023**
 - Computes:
   - Daily asset returns
   - Portfolio cumulative value
