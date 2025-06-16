@@ -7,7 +7,7 @@ def fetch_asset_data():
         'USD/EUR': 'USD/EUR'
     }
 
-    API_KEY = "6c14751881ca4e699ed6ae68aeae9b81"
+    API_KEY = "Enter your API key here"
     
     dfs = []
 
