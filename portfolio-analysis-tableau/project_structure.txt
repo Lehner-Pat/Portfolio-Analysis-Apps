@@ -1,0 +1,16 @@
+finance_portfolio_project/
+│
+├── data/                   # For storing raw and processed data
+│   └── historical_prices.csv
+│
+├── app/
+│   ├── __init__.py
+│   ├── models/
+│   │   └── data_model.py         # Fetch and prepare price data
+│   ├── controllers/
+│   │   └── analysis_controller.py  # Metrics and calculations
+│   └── utils/
+│       └── helpers.py            # Common utility functions
+│
+├── main.py                # Entry point
+└── requirements.txt       # Dependencies
